@@ -1,0 +1,63 @@
+Database: 
+A shared collection ofrelated data to support activities of an organization. A database can be viewed as a repository of data that is defined once and accessed by various users
+
+DataBaseManagamentSystem(DBMS):
+A collection of programs that enables users to create & manage databases & control all access to them
+
+Field:
+Facts that represent real world information
+
+Table:
+A combination of fields
+
+Managing the database here refers to taking care of it so that it works for us and is useful for the tasks we perform.
+
+
+Characteristics and Benefits of a Database:
+  - Self-describing nature of a database system
+      - db is called self-describing because it contains db itself and also metadata. Metadata defines and describes the data and relationships between the         tables of db. This information is used by the DBMS software or database users if needed. This separation of data and information about the data             makes a database system totally different from the traditional file-based system in which the data definition is part of the application programs.
+  
+  - Insulation between program and data
+      - In a file-based system, the structure of the data files is defined in the application programs. So, if a user wants to change the structure of a           file, all the programs that access that file might need to be changed as well. 
+        On the other hand, in the database approach, the data structure is stored in the system catalogue and not in the programs. Therefore, one change is         all that is needed to change the structure of a file. This insulation between the programs and data is also called program-data independence
+  
+  - Support for multiple views of data
+      - A view is a subset of the database, which is defined and dedicated for particular users of the system. Multiple users in the system might have             different views of the system. Each view might contain only the data of interest to a user or group of users
+      
+  - Sharing of data and multiuser system
+      - Many users are allowed to access the same database at the same time. This is achieved through features called concurrency control strategies. These         strategies ensure that the data accessed are always correct and that data integrity is maintained. The design of modern multiuser database systems         is a great improvement from those in the past which restricted usage to one person at a time
+
+  - Control of data redundancy
+      - In the database approach, ideally, each data item is stored in only one place in the database. In some cases, data redundancy still exists to               improve system performance, but such redundancy is controlled by application programming and
+        kept to minimum by introducing as little redudancy as possible when designing the database
+
+  - Data sharing
+
+  - Enforcement of integrity constraints
+  
+  - Restriction of unauthorized access
+  
+  - Data independence
+  
+  - Transaction processing
+  
+  - Provision for multiple views of data
+  
+  - Backup and recovery facilities
+  
+  
+  
+  
+concurrency control strategies: features of a database that allow several users access to the same data item at the same time
+
+data type: determines the sort of data permitted in a field, for example numbers only
+
+data uniqueness: ensures that no duplicates are entered
+
+database constraint: a restriction that determines what is allowed to be entered or edited in a table
+
+metadata: defines and describes the data and relationships between tables in the database
+
+self-describing: a database system is referred to as self-describing because it not only contains the database itself, but also metadata which defines and describes the data and relationships between tables in the database
+
+view: a subset of the database
